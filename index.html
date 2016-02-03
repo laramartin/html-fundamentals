@@ -15,15 +15,18 @@
 
 		<style type="text/css">
 			body {color:red}
+			.message {color:green}
 		</style>
 
 		<!-- adds a base URL, so the href in <link> will be read as "www.pluralsight.com/index.css" -->
-		<base href="http://www.pluralsight.com"></base>
+<!-- 		<base href="http://www.pluralsight.com"></base> -->
 
 		<link rel="stylesheet" type="text/css" href="index.css" />
 
 	</head>
 	<body>
-		<p>HTML content goes here</p>
+		<!-- id allows to identify a particular item within the page-->
+		<!-- inside <style> we specify the style of the class message -->
+		<p id="myMessage" class="message">HTML content goes here</p>
 	</body>
 </html>
