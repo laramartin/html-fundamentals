@@ -3,19 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>An XHTML 1.0 Strict standard template</title>
-		<meta name="Author" content="Matt Milner" />
+		<meta name="Author" content="Lara Martin" />
 		<meta name="keywords" content="Pluralsight, Sample, HTML" />
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-		<script type="text/javascript"> 
-			window.onload = function() {
-				alert("window loaded");
-			}
-		</script>
-
 		<style type="text/css">
 			body {color:red}
-			.message {color:green}
+			.title {color:green}
 		</style>
 
 		<!-- adds a base URL, so the href in <link> will be read as "www.pluralsight.com/index.css" -->
@@ -25,8 +19,9 @@
 
 	</head>
 	<body>
-		<!-- id allows to identify a particular item within the page-->
-		<!-- inside <style> we specify the style of the class message -->
-		<p id="myMessage" class="message">HTML content goes here</p>
+		<h1 class="title">Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
 	</body>
 </html>
