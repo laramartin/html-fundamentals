@@ -1,84 +1,71 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>An XHTML 1.0 Strict standard template</title>
-		<meta name="Author" content="Lara Martin" />
-		<meta name="keywords" content="Pluralsight, Sample, HTML" />
-		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+	<title>An XHTML 1.0 Strict standard template</title>
+	<meta name="Author" content="Lara Martin" />
+	<meta name="keywords" content="Pluralsight, Sample, HTML" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!--  
+	<style type="text/css">
+		body {color:red}
+		.title {color:green}
+	</style>
+-->
 
-		<style type="text/css">
-			body {color:red}
-			.title {color:green}
-		</style>
+	<!-- adds a base URL, so the href in <link> will be read as "www.pluralsight.com/index.css" -->
+	<!-- 		<base href="http://www.pluralsight.com"></base> -->
 
-		<!-- adds a base URL, so the href in <link> will be read as "www.pluralsight.com/index.css" -->
-<!-- 		<base href="http://www.pluralsight.com"></base> -->
+	<!-- <link rel="stylesheet" type="text/css" href="index.css" /> -->
 
-		<link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+	<h1 class="title">Heading 1</h1>
+	<h2>Overview</h2>
+	<div id="overviewContainer">
+		<span>See the section on <a href="#terminology">terminology</a> for definitions of terms used here.</span>
+		<p>
+			<span id="htmlTag" class="highlight">
+				<acronym title="Hypertext Markup Language">HTML</acronym> drives the web.</span>
+				Whether you use <abbr title="Internet Explorer">IE</abbr>, Chrome, Firefox, Safari,
+				or some other browser, many of us use the web daily. 
+				In this course you will learn the fundamental elements of creating web pages 
+				using HTML.
+			</p>
+			<p>
+				Not covered in this course is detailed information about 
+				<acronym title="Cascading Style Sheets">CSS</acronym>, javascript, 
+				or <acronym title="Hypertext Transfer Protocol">HTTP</acronym> 
+				as those topics are covered in detail in other Pluralsight courses
+				<sup>
+					<a href="http://www.pluralsight-training.net/microsoft/Courses/TableOfContents?courseName=css-intro">1</a>,
+					<a href="http://www.pluralsight-training.net/microsoft/Courses/TableOfContents?courseName=xhttp-fund">2</a>
+				</sup>.
+			</p>
 
-	</head>
-	<body>
-		<h1 class="title">Heading 1</h1>
-		<h2>Heading 2</h2>
-		<h3>Heading 3</h3>
-		<h4>Heading 4</h4>
-
-		<div id="overviewContainer">This is my overview</div>
-		<div id="secondDiv">This is another overview</div>
-
-		<p>This is a                paragraph</p>
-		<pre>This is a                paragraph</pre>
-		<pre>This is a <or>                paragraph</pre>
-		<pre>This is a    &ltor&gt            paragraph</pre>
-
-		<code>This is code function()</code>
-		<samp>This is program output</samp>
-
-		<hr/> <!-- horizontal line -->
-
-		<em>emphasis</em>
-		<strong>bold letters</strong>
-
-		<blockquote>Block level</blockquote>
-		<q>Inline quote. Quote where the info comes from</q>
-
-		<!-- unordered list -->
-		<ul>
-			<li>1</li>
-			<li>2</li>
-			<ul>
-				<li>2.1</li>
-				<li>2.2</li>
+			<h3>Objectives</h3>
+			<ul class="square">
+				<li>Explain the fundamental concepts of HTML</li>
+				<li>Have fun
+					<ul >
+						<li>creating documents</li>
+						<li>creating memories</li>
+					</ul>
+				</li>
+				<li>Mark it up!</li>
 			</ul>
-			<li>3</li>
-		</ul>
 
-		<!-- ordered list -->
-		<ol>
-			<li>1</li>
-			<ol>
-				<li>1.1</li>
-				<li>1.2</li>
+			<h3>Outline</h3>
+			<ol class="withUpperRoman">
+				<li>Introduction</li>
+				<li><a href=".\content\text.html">Text elements</a></li>
+				<li><a href=".\content\lists.html">Lists</a>
+					<li>Unordered lists</li>
+					<li>Ordered lists</li>
+					<li>Definition lists</li>
+				</li>
+				<li>Links</li>
 			</ol>
-			<li>2</li>
-			<ul>
-				<li>2.1</li>
-				<li>2.2</li>
-			</ul>
-			<li>3</li>
-		</ol>
-
-		<br/>
-
-		<h2> Terminology </h2>
-		<!-- definition list -->
-		<dl>
-			<!-- dt = definition title -->
-			<dt>HTML</dt>
-			<!-- dd = definition definition -->
-			<dd>this is blabla</dd>
-		</dl>
-		
-	</body>
+	</div>
+</body>
 </html>
